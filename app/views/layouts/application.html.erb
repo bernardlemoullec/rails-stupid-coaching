@@ -9,7 +9,33 @@
   </head>
 
   <body>
-    <h1>Stupid Coaching</h1> <!-- Add this -->
+
+    <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://tof.cx/images/2019/11/11/300d1542d11d6e706a462642c08bbd87.jpg);">
+      <div class="container">
+        <h1>Stupid Coaching</h1>
+        <p>Ask your coach anything</p>
+      </div>
+    </div>
+
+    <br>
+
     <%= yield %>
+
+    <br>
+
+    <div class="footer">
+      <div class="footer-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <br>
+      <div class="footer-copyright">
+        This footer is made by a stupid coach.
+      </div>
+    </div>
+
   </body>
 </html>
